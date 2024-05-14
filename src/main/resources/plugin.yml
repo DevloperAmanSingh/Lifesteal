@@ -1,0 +1,4 @@
+name: EpicLifesteal
+version: '${version}'
+main: org.aman.epiclifesteal.EpicLifesteal
+api-version: '1.20'

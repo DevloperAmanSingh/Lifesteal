@@ -1,0 +1,9 @@
+config-version: 2
+hearts:
+  heart_tier1:
+    name: "&c&lHeart of the Damned"
+    lore:
+      - "&7&oA heart of a damned soul."
+      - "&7&oIt's still beating."
+    material: RED_DYE
+    amount: 1

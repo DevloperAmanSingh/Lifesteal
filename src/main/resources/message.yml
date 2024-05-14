@@ -1,0 +1,21 @@
+config-version: 3
+
+messages:
+  insufficient-permission: "&#FC1A05You are not allowed to use this command"
+  invalid-player: "&#FC1A05This player is not online"
+  invalid-amount: "&#FC1A05Please enter a valid amount"
+  invalid-args: "&#FC1A05Command Usage: /els <subcommand>"
+  not-banned: "&#FC1A05This player is not banned"
+  cap-reached: "&#FC1A05You reached to max hearts limit"
+  hearts-redeemed: "&#54F132Successfully redeemed a heart"
+  hearts-given: "&#54F132Given %player% %amount% hearts"
+  hearts-set: "&#54F132%player%'s new heart amount is %amount%"
+  hearts-set-max: "&#54F132%player%'s new max heart limit is %amount% (Max hearts limit)"
+  hearts-add: "&#54F132Added %amount% hearts to %player%"
+  reloaded: "&#54F132Successfully reloaded config"
+  unbanned: "&#54F132Successfully unbanned %player%"
+  player_eliminated: "&#FC1A05Successfully eliminated %player%"
+  hearts-removed: "&#FC1A05Removed %amount% hearts from %player%"
+  hearts-exceeds-max: "&#FC1A05This player's heart amount exceeds the max limit"
+  player-inv-full: "&#FC1A05%player%'s inventory is full"
+  insufficient-hearts: "&#FC1A05You don't have enough hearts"

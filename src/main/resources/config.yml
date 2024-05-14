@@ -1,0 +1,54 @@
+config-version: 1
+
+hearts-drop:
+  onPlayerKill: false
+  onNaturalDeath: true
+  heartsToDrop: 1
+
+heartCap:
+    starter: 10
+    max: 20
+    afterUnban: 5
+
+settings:
+  dropAsItem: true   # Drops a heart as item on death. If false, the heart will be added to the player's heart count.
+
+bans:
+  defaultBanTime: 120 # In seconds
+  Message:
+    - ''
+    - '&#11f3fb&lH&#15effb&lE&#19ebfb&lA&#1ce8fc&lR&#20e4fc&lT&#24e0fc&lS&#28dcfc&lT&#2bd9fd&lE&#2fd5fd&lA&#33d1fd&lL'
+    - ''
+    - '&fYou have been eliminated! &#FB0000✖'
+    - '&7Banned from SERVERNAME for &#FB0000%duration% &7seconds&7!'
+    - ''
+    - '&#11f3fb&lPLAY.YOURSERVER.FUN'
+  kick-message: "You are eliminated! You can't join back until the ban is uplifted!"
+
+crafting:
+  enabled: true
+  1: NETHERITE_BLOCK
+  2: GOLD_BLOCK
+  3: NETHERITE_BLOCK
+  4: DIAMOND_BLOCK
+  5: ENCHANTED_GOLDEN_APPLE
+  6: DIAMOND_BLOCK
+  7: NETHERITE_BLOCK
+  8: GOLD_BLOCK
+  9: NETHERITE_BLOCK
+
+
+heart-item:
+  material: RED_DYE
+  name: '&#FF3C3CHeart'
+  lore:
+    - '&8Information'
+    - ''
+    - '&fRedeem this heart to increase'
+    - '&fyour &#FF3C3Cmaximum health&f!'
+    - ''
+    - '&#FF3C3C➥ Right Click to Redeem'
+
+antiexploits:
+  preventIfOnSameIP: true
+  samePlayerCooldown: 120

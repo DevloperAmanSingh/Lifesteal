@@ -10,12 +10,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Level;
 
-public class DC extends DO{
+public class DatabaseConnector extends DatabaseOperation {
 
     private final String dbname = "players";
     private final String SQLiteCreateTokensTable = "CREATE TABLE IF NOT EXISTS players_info (player_uuid VARCHAR(36) NOT NULL PRIMARY KEY, player_name VARCHAR(255) NOT NULL, ip_address VARCHAR(45) NOT NULL, hearts INT NOT NULL, max_hearts INT NOT NULL, eliminated BOOLEAN NOT NULL, ban_time BIGINT NOT NULL)";
     public EpicLifesteal instance;
-    public DC(EpicLifesteal instance){
+    public DatabaseConnector(EpicLifesteal instance){
         super(instance);
     }
 
@@ -48,7 +48,7 @@ public class DC extends DO{
     }
 
     @Override
-    public void load() {
+    public void load()  {
         this.connection = this.getSQLConnection();
         try {
             Statement s = this.connection.createStatement();
